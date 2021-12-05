@@ -1,0 +1,95 @@
+body {
+	margin-left: 100px;
+	margin-right: 100px;
+    width: auto;
+}
+/* Bara de meniuri */
+hr.new4 {
+  border: 2px solid #04d104;
+}
+*{transition:all 0.3s ease-in-out;}
+.container{
+  clear:both;
+  overflow:auto;
+  background-color: white;
+}
+nav{float:left;}
+.logo img{float:right; padding-right: 30px; padding-top: 12px;}
+ul li {
+  display: inline-block; padding:10px;
+  font-size:20px; font-family:raleway;
+}
+a {
+font-family: 'Lato', sans-serif;
+color: black;
+}
+a:hover{
+  color:#04d104;
+  text-decoration: underline;
+}
+a:link {
+  text-decoration: none;
+}
+h1{
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+footer {
+  text-align: center;
+  padding: auto;
+  background-color: #7bde3e;
+  color: #1d51f0;
+  width: 100%;
+}
+h3 {
+	text-align: center;
+
+}
+#page-container {
+  position: relative;
+  min-height: 10vh;
+}
+#content-wrap {
+  padding-bottom: 3.5rem;    
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 4 rem;  
+  margin-right: 0px;  
+  margin-bottom: 0px;
+  margin-left: -100px;
+}
+p{
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+h2{
+	padding-left: 20px;
+}
+main {
+	margin: 0 auto;
+}
+.btn-group button {
+  background-color: #7bde3e; 
+  border: none; 
+  color: #1d51f0; 
+  padding: 0px; 
+  cursor: pointer; 
+  width: 25%; 
+}
+.btn-group button:hover {
+  background-color: #1d51f0;
+}
+h2{
+	font family:'Pacifico', cursive;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
